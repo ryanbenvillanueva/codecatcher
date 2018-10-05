@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" charset="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+	<title>My JS Game</title>
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<script type="text/javascript"  src="./assets/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript"  src="./assets/js/script.js"></script>	
+</head>
+<body onload="startGame()">
+	<div class="controllers">
+		<button onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()">UP</button><br><br>
+		<button onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()">LEFT</button>
+		<button onmousedown="moveright()" onmouseup="clearmove()" ontouchstart="moveright()">RIGHT</button><br><br>
+		<button onmousedown="movedown()" onmouseup="clearmove()" ontouchstart="movedown()">DOWN</button>
+	</div>
+</body>
+</html>
+<!-- codepen.io
+https://marcvincentreyes7.github.io/survivaldoor/ 
+https://bcavas.github.io/JSdungeon/battle.html
+-->
