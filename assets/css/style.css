@@ -4,18 +4,9 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0 auto;
-}
-
 canvas {
-    border:1px solid #d3d3d3;
-    background-color: #f1f1f1;
-    width: 100%;
-    margin: 0 auto;
+    border:5px solid #ae81ff;
+    /* background-color: #75715e; */
+    margin: 10px;
 }
-
-.controllers {
-  text-align:center;
-  width: 100%;
-}
+/*  */
