@@ -7,7 +7,7 @@ var codeArray = [];
 
 startGame = () => {
     myGamePiece = new component(50, 50, "./assets/img/catcher.png", 225, 450, "image");
-    myBackground = new component(500, 400, "./assets/img/background.jpg", 0, 100, "image");
+    myBackground = new component(500, 500, "./assets/img/background.jpg", 0, 0, "image");
     server = new component(500, 100, "./assets/img/server.png", 0, 0, "image");
     myGameArea.start();
 }

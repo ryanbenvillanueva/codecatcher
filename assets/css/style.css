@@ -2,11 +2,62 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-canvas {
-    border:5px solid #ae81ff;
-    /* background-color: #75715e; */
-    margin: 10px;
+body {
+    background: #e6db74;
+    text-align: center;
+    color: #3e3d32;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
 }
-/*  */
+canvas {
+    display: block;
+    border:5px solid #ae81ff;
+    margin: 3.5rem auto;
+}
+
+#instructions {
+    width: 500px;
+    height: 500px;
+    margin: 3.5rem auto;
+    background: #3e3d32;
+    border:5px solid #ae81ff;
+}
+
+#instructions h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    color: #f8f8f2;
+    margin-top: 1rem;
+}
+
+#instructions p {
+    font-weight: bold;
+    font-size: 24px;
+    color: #f8f8f2;
+}
+
+#img-dev {
+    width: 128px;
+    height: 128px;
+    margin: 2rem auto;
+}
+
+/* 
+#play-btn {
+    
+    font-size: 24px;
+    font-weight: bold;
+
+} */
+
+a {
+    text-decoration: none;
+    color: #3e3d32;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 2rem 6rem;
+}

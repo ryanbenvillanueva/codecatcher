@@ -7,9 +7,25 @@
 	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
 	<title>Code Catcher Game</title>
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+	 crossorigin="anonymous">
 	<script type="text/javascript" src="./assets/js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="./assets/js/script.js"></script>
 </head>
-<body onload="startGame()">
+
+<body>
+
+	<div id="instructions">
+		<h1>Code Catcher</h1>
+		<img id="img-dev" src="./assets/img/developer.png" alt="the developer">
+		<p>The aim of the game is to catch as many falling code blocks as you can and beat the high score.</p>
+		<br>
+		<p>Use the <span><i class="fas fa-long-arrow-alt-left"></i></span> or <span><i class="fas fa-long-arrow-alt-right"></i></span>
+			keys to move the developer.</p>
+		<br>
+		<button id="play_btn"><a href="./game.html"> Play </a></button>
+	</div>
+	<div id="result"></div>	
 </body>
+
 </html>
